@@ -32,6 +32,55 @@ for(i=1;i<11;i++){
     console.log("table",i*t)
 }
 
+// Array
+
+let a=[21,32,43,54,55,66,77,88,99,170]
+ //a[10]=11
+ 
+ console.log("a 1 and a2 values add ",a[0]+a[1])
+
+// console.log(a)
+let sum=0;
+for(i=0;i<10;i++){
+    
+    sum=sum+a[i]
+    console.log(sum)
+    
+}
+console.log("sum all Array values",sum)
+
+
+let name=["Deepak","Saurab","Pushkar","kumar","rahul"]
+
+console.log(name.length)
+
+
+console.log(name[0],name[3])
+
+for(i=0;i<name.length;i++){
+    
+    console.log(name[i],i)
+}
+
+
+
+// Function
+
+function Add(a,b,c=0){
+   
+    
+    console.log(a+b+c)
+}
+
+
+function min(a,b){
+    console.log(a-b)
+}
+
+Add(20,30)
+
+Add(20,30,40)
+
 
 
 
