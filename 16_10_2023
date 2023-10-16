@@ -1,0 +1,34 @@
+//string
+// let name=['D','e','e','p','a','k']    
+//name[] 
+let name='  Deepake   '
+let name1='kumar'
+
+// let a=['1','2','3']    new Array()
+// console.log(typeof(a))
+//let a=[true,false]
+
+//console.log(a)
+
+
+// console.log(name.charAt(5))
+//console.log(name.concat(name1))   name+name1
+
+// console.log(name.indexOf('e',2)) 
+/
+
+console.log(name.toLowerCase())
+console.log(name.toUpperCase())
+console.log(name.toLocaleUpperCase())
+console.log(name.trim())
+
+
+//Object
+//name=>Key:deepak=>value
+
+//let b=[1,2]
+
+let a=[{"name":"deepak","age":22,"address":"delhi"},{"name":"saurab","age":22,"address":"Ghaziyabad"}]
+for(i=0;i<a.length;i++){
+console.log(a[i].name)
+}
